@@ -1,0 +1,7 @@
+# This file lists all Python packages required for the NIGHTWING project.
+# To install: !pip install -r requirements.txt
+
+super-gradients    # For the YOLO-NAS-S model
+albumentations     # For advanced image augmentations
+wandb              # For tracking experiments (optional but recommended)
+opencv-python      # For image/video processing 
