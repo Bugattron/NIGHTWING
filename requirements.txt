@@ -1,7 +1,16 @@
-# This file lists all Python packages required for the NIGHTWING project.
-# To install: !pip install -r requirements.txt
+# Core ML & Data Science
+ultralytics==8.0.196  # The core framework for YOLOv8
+torch>=1.7.0          # PyTorch (will be installed with ultralytics if needed)
+torchvision>=0.8.0    # (will be installed with ultralytics if needed)
 
-super-gradients    # For the YOLO-NAS-S model
-albumentations     # For advanced image augmentations
-wandb              # For tracking experiments (optional but recommended)
-opencv-python      # For image/video processing 
+# Image Processing & Augmentation
+opencv-python-headless==4.8.0.74  # Lighter version of OpenCV for server environments
+albumentations==1.3.0             # For advanced image augmentations
+
+# Data Handling & Visualization
+pandas==1.5.3
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Experiment Tracking (Optional but Recommended)
+wandb==0.15.8
