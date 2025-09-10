@@ -1,0 +1,12 @@
+# configs/data.yaml
+# Paths to your data in Google Drive (will be updated)
+path: /content/drive/MyDrive/[NIGHTWING]/datasets/processed
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['bird']
