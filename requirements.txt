@@ -1,16 +1,4 @@
-# Core ML & Data Science
-ultralytics==8.0.196  # The core framework for YOLOv8
-torch>=1.7.0          # PyTorch (will be installed with ultralytics if needed)
-torchvision>=0.8.0    # (will be installed with ultralytics if needed)
-
-# Image Processing & Augmentation
-opencv-python-headless==4.8.0.74  # Lighter version of OpenCV for server environments
-albumentations==1.3.0             # For advanced image augmentations
-
-# Data Handling & Visualization
-pandas==1.5.3
-matplotlib==3.7.1
-seaborn==0.12.2
-
-# Experiment Tracking (Optional but Recommended)
-wandb==0.15.8
+# CORE REQUIREMENTS FOR NIGHTWING (YOLOv8)
+ultralytics>=8.0.196  # The only absolutely critical package. Everything else supports it.
+opencv-python-headless>=4.5.0  # For all image/video I/O and processing. Essential.
+albumentations>=1.3.0  # For your thermal-specific data augmentations. Essential.
